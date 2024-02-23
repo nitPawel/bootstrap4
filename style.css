@@ -16,10 +16,10 @@ body {
 	height: 500px;
 	background-image: url(./img/tubes1920.jpg);
 	z-index: 0;
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .hero-shadow {
@@ -32,19 +32,69 @@ body {
 	z-index: -1;
 }
 .hero-img h1 {
-  font-size: 5rem;
+	font-size: 5rem;
 }
 .hero-img p {
-  font-size: 2rem;
-
+	font-size: 2rem;
 }
 #navbarNav ul li a {
-  font-size: 2rem;
-  /* text-transform: uppercase; */
-  margin: 0.5rem 2rem;
-  font-weight: bolder;
-  
+	font-size: 2rem;
+	/* text-transform: uppercase; */
+	margin: 0.5rem 2rem;
+	font-weight: bolder;
 }
 #navbarNav {
-  background-color: none;
+	background-color: none;
+}
+
+/* aboutUs */
+.about-us {
+	max-width: 1000px;
+	margin: auto;
+}
+.about-us img {
+	height: 250px;
+	width: 250px;
+}
+h2 {
+	font-size: 4rem;
+}
+
+.carousel img {
+	height: 450px;
+	object-fit: cover;
+	filter: brightness(70%);
+}
+.carousel h5 {
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.container {
+	max-width: 1000px;
+	margin: auto;
+}
+/* prices */
+.prices {
+	padding-top: 4rem;
+	padding-bottom: 10rem;
+}
+
+.prices .card h3 {
+	font-size: 2.5rem;
+	margin-bottom: 2.5rem;
+}
+
+.contact {
+	height: 900px;
+}
+.card {
+	transition: transform 0.3s;
+}
+
+.card:hover {
+	transform: scale(1.1);
+}
+.card-body i {
+	font-size: 5rem;
 }
