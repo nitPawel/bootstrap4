@@ -4,6 +4,6 @@ Strona stworzona z użyciem Bootstrap'a w ramach nauki z kursu MMC School jako o
 
 [Link do strony](https://twojhydraulik.netlify.app)
 
-![Screenshot](preview1.png)
-![Screenshot](preview2.png)
-![Screenshot](preview3.png)
+![Screenshot](./screenshots/preview1.png)
+![Screenshot](./screenshots/preview2.png)
+![Screenshot](./screenshots/preview3.png)
